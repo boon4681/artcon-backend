@@ -1,0 +1,31 @@
+{
+  "name": "artcon-backend",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.709.0",
+    "@aws-sdk/s3-request-presigner": "^3.709.0",
+    "@faker-js/faker": "^9.3.0",
+    "@hono/node-server": "^1.13.7",
+    "@hono/oauth-providers": "^0.6.2",
+    "@hono/zod-openapi": "^0.18.3",
+    "@sequelize/sqlite3": "^7.0.0-alpha.43",
+    "bcrypt": "^5.1.1",
+    "chanfana": "^2.4.2",
+    "dotenv": "^16.4.7",
+    "hono": "^4.6.13",
+    "minimist": "^1.2.8",
+    "sequelize": "^6.37.5",
+    "sequelize-typescript": "^2.1.6",
+    "sqlite3": "^5.1.7",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/minimist": "^1.2.5",
+    "@types/node": "^20.11.17",
+    "tsx": "^4.7.1"
+  }
+}
